@@ -30,6 +30,10 @@
 				<extensions>true</extensions>
 				<configuration>
 				 <copyToAppsDirectory>true</copyToAppsDirectory>
+				 <standaloneDeployment>
+      <muleHome>${mule.home.test}</muleHome>
+      <muleVersion>${app.runtime}</muleVersion>
+    </standaloneDeployment>
 				</configuration>
 			</plugin>
 			<plugin>
