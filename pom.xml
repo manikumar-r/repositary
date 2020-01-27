@@ -29,8 +29,8 @@
 				<extensions>true</extensions>
 				<configuration>
 				    <standaloneDeployment>
-      <muleHome>${mule.home.test}</muleHome>
-      <muleVersion>${app.runtime}</muleVersion>
+      <muleHome>E:\mule-enterprise-standalone-4.2.2</muleHome>
+      <muleVersion>4.2.0</muleVersion>
     </standaloneDeployment>
 				</configuration>
 			</plugin>
