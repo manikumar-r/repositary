@@ -15,9 +15,8 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<app.runtime>4.2.0</app.runtime>
-		<mule.maven.plugin.version>3.2.7</mule.maven.plugin.version>
+		<mule.maven.plugin.version>3.2.0</mule.maven.plugin.version>
 		<mule.version>4.2.0</mule.version>
-        <mule.tools.version>1.2</mule.tools.version>
         <project.site.deploy.url>E:\mule-enterprise-standalone-4.2.2\apps</project.site.deploy.url>
 	</properties>
 
@@ -29,24 +28,11 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-				 <copyToAppsDirectory>true</copyToAppsDirectory>
-				 <standaloneDeployment>
+				    <standaloneDeployment>
       <muleHome>${mule.home.test}</muleHome>
       <muleVersion>${app.runtime}</muleVersion>
     </standaloneDeployment>
 				</configuration>
-			</plugin>
-			<plugin>
-			<artifactId>maven-deploy-plugin</artifactId>
-			<executions>
-             <execution>
-              <id>default-deploy</id>
-              <phase>deploy</phase>
-              <goals>
-              <goal>deploy</goal>
-              </goals>
-             </execution>
-            </executions>
 			</plugin>
 		</plugins>
 	</build>
