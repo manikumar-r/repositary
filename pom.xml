@@ -22,27 +22,47 @@
 		<plugins>
 		<plugin>
   <groupId>org.mule.tools.maven</groupId>
-  <artifactId>mule-maven-plugin</artifactId>
-  <version>3.6.2</version>
-  <extensions>true</extensions>
-  <configuration>
-    <standaloneDeployment>
-      <muleVersion>4.2.0</muleVersion>
-      <uri>https://anypoint.mulesoft.com</uri>
-      <target>LocalMule</target>
-      <targetType>server</targetType>
-      <username>mani21</username>
-      <password>Maninene@21</password>
-      <environment>Sandbox</environment>
-      <properties>
-        <key>value</key>
-      </properties>
-    </standaloneDeployment>
-  </configuration>
-</plugin>
-			
-			
-		</plugins>
+
+<artifactId>mule-maven-plugin</artifactId>
+
+<version>2.0</version>
+
+<configuration>
+
+<deploymentType>standaloneDeployment</deploymentType>
+
+<username>mani21</username>
+
+<password>Maninene@21</password>
+
+<target>server</target>
+
+<!-- One of: server, serverGroup, cluster: -->
+
+<targetType>server</targetType>
+
+<environment>Sandbox</environment>
+
+</configuration>
+
+<executions>
+
+<execution>
+
+<id>deploy</id>
+
+<phase>deploy</phase>
+
+<goals>
+
+<goal>deploy</goal>
+
+</goals>
+
+</execution>
+    </executions>
+    </plugin>
+      </plugins>
 	</build>
 
 	<dependencies>
