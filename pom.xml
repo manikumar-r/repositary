@@ -5,7 +5,7 @@
 	<groupId>com.mycompany</groupId>
 	<artifactId>new-jenkins</artifactId>
     <version>1.0.0</version>
-    <packaging>jar</packaging>
+    <packaging>mule-application</packaging>
 	<name>new-jenkins</name>
 	
     <properties>
