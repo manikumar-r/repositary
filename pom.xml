@@ -26,7 +26,11 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-     <copyToAppsDirectory>true</copyToAppsDirectory>
+     <standaloneDeployment>
+      <muleHome> E:\mule-enterprise-standalone-4.2.2</muleHome>
+      <muleVersion>4.2.2</muleVersion>
+      <skip>true</skip>
+    </standaloneDeployment>
 				</configuration>
 				
 			</plugin>
