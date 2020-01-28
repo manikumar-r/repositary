@@ -14,7 +14,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
          <mule.tools.version>1.2</mule.tools.version>
-		<project.site.deploy.url>E:\mule-enterprise-standalone-4.2.2\apps</project.site.deploy.url>
+		<project.site.deploy.url>C:\Users\tumma\Downloads\mule-ee-distribution-standalone-4.2.2\mule-enterprise-standalone-4.2.2\bin</project.site.deploy.url>
 		<app.runtime>4.2.0</app.runtime>
 		<mule.maven.plugin.version>3.2.7</mule.maven.plugin.version>
 	</properties>
@@ -28,7 +28,7 @@
 				<extensions>true</extensions>
 				<configuration>
      <standaloneDeployment>
-      <muleHome> E:\mule-enterprise-standalone-4.2.2</muleHome>
+      <muleHome>C:\Users\tumma\Downloads\mule-ee-distribution-standalone-4.2.2\mule-enterprise-standalone-4.2.2</muleHome>
       <muleVersion>4.2.2</muleVersion>
     
     </standaloneDeployment>
