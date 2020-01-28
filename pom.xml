@@ -6,8 +6,9 @@
 	<artifactId>new-jenkins</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>mule-application</packaging>
-
 	<name>new-jenkins</name>
+	
+	
 
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -29,7 +30,7 @@
      <standaloneDeployment>
       <muleHome> E:\mule-enterprise-standalone-4.2.2</muleHome>
       <muleVersion>4.2.2</muleVersion>
-      <skip>true</skip>
+    
     </standaloneDeployment>
 				</configuration>
 				
