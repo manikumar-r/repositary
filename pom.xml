@@ -30,7 +30,7 @@
      <standaloneDeployment>
       <muleHome>C:\Users\tumma\Downloads\mule-ee-distribution-standalone-4.2.2\mule-enterprise-standalone-4.2.2</muleHome>
       <muleVersion>4.2.2</muleVersion>
-    
+    <skip>true</skip>
     </standaloneDeployment>
 				</configuration>
 				
