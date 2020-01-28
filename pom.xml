@@ -29,7 +29,7 @@
 
 <configuration>
 
-<deploymentType>standaloneDeployment</deploymentType>
+<deploymentType>standalone</deploymentType>
 
 <username>mani21</username>
 
