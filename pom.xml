@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 	<groupId>com.mycompany</groupId>
-	<artifactId>new-jenkins</artifactId>
+	<artifactId>new-jenkin</artifactId>
     <version>1.0.0</version>
     <packaging>mule-application</packaging>
-	<name>new-jenkins</name>
+	<name>new-jenkin</name>
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
