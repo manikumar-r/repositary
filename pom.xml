@@ -81,7 +81,7 @@
             <id>mulesoft-releases</id>
             <name>mulesoft release repository</name>
             <layout>default</layout>
-            <url>E:/mule-maven-plugin-3.2.7.jar</url>
+            <url>C:\Users\tumma\.m2\repository\org\mule\tools\maven\mule-maven-plugin\3.2.7</url>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
