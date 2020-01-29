@@ -25,9 +25,8 @@
 				<extensions>true</extensions>
 				<configuration>
      <standaloneDeployment>
-      <muleHome>C:\Users\tumma\Downloads\mule-ee-distribution-standalone-4.2.2\mule-enterprise-standalone-4.2.2\apps</muleHome>
+      <muleHome>C:\Users\tumma\Downloads\mule-ee-distribution-standalone-4.2.2\mule-enterprise-standalone-4.2.2</muleHome>
       <muleVersion>4.2.2</muleVersion>
-    
     </standaloneDeployment>
 				</configuration>
 				
