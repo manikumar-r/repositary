@@ -33,7 +33,7 @@
 			</plugin>
 			<plugin>
 			
-			<artifactId>mule-deploy-plugin</artifactId>
+			<artifactId>maven-deploy-plugin</artifactId>
         
 			<executions>
 			<execution>
