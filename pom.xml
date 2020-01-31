@@ -33,9 +33,8 @@
 			</plugin>
 			<plugin>
 			
-			<artifactId>mule-maven-plugin</artifactId>
-         <version>3.2.7</version>
-         <extensions>true</extensions>
+			<artifactId>mule-deploy-plugin</artifactId>
+        
 			<executions>
 			<execution>
 			<id>default-deploy</id>
