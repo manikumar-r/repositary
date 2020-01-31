@@ -20,15 +20,15 @@
 		<plugins>
 		<plugin>
 				<groupId>org.mule.tools.maven</groupId>
-				<artifactId>mule-maven-plugin</artifactId>
-				<version>3.2.7</version>
-				<extensions>true</extensions>
-				<configuration>
-     <standaloneDeployment>
+         <artifactId>mule-maven-plugin</artifactId>
+         <version>${mule.maven.plugin.version}</version>
+         <extensions>true</extensions>
+		<configuration>
+      <standaloneDeployment>
       <muleHome>C:\Users\tumma\Downloads\mule-ee-distribution-standalone-4.2.2\mule-enterprise-standalone-4.2.2</muleHome>
       <muleVersion>4.2.2</muleVersion>
-    </standaloneDeployment>
-				</configuration>
+      </standaloneDeployment>
+	   </configuration>
 				
 			</plugin>
 			<plugin>
